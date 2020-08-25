@@ -10,7 +10,7 @@ class Backer
   end
 
 
-  def back_project(project_name)
+  def back_project(Project)
     backed_projects << project_name
     project_name.add_backer.self
   end
